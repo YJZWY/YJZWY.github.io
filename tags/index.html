@@ -1,140 +1,125 @@
-
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<title>续写篇张</title>	
-</style>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>标签列表 | 续写篇张</title>
+<meta name="description" content="今天的你，学习了吗？">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://cctime.coding.me/favicon.ico?v=1563539731487">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://cctime.coding.me/styles/main.css">
-<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type='text/javascript' src='http://cctime.coding.me/media/scripts/jquery.js'></script>
-<script type='text/javascript' src='http://cctime.coding.me/media/scripts/script.js'></script>
-
-<style type="text/css">
-header {
-    text-align: center;
-    padding: 120px 0px 40px 0px;
-    background: #515865 center no-repeat;
-    font-size: 16px;
-    color: #fff;
-    background-size: cover;
-    background-image:url(
-			https://www.z4a.net/images/2019/07/19/01e9f163296f6f9206.png
-			);
-}
-		</style>
-
-</head>
-<body class="post-template-default single single-post postid-70 single-format-standard">
-    <div id="wrapper">
-        <!-- topbar -->
-			<header id="header headerimg" class="site-header" style="background-image:url(
-			
-			https://www.z4a.net/images/2019/07/19/01e9f163296f6f9206.png
-			
-			)">
-			<div class="site-branding">
-									<h1 class="site-title"><a href="http://cctime.coding.me" rel="home">续写篇张</a></h1>
-										
-					<h2 class="site-description">今天的你，学习了吗？</h2>
-										
-							</div>
-			<nav id="nav-wrapper">
-				<div class="container">
-					<div class="nav-toggle">
-						<div class="bars">
-							<div class="bar"></div>
-							<div class="bar"></div>
-							<div class="bar"></div>
-						</div>
-					</div><!-- /nav-toggle -->
-					<div class="clear"></div>
-					<ul id="" class="vtmenu">
-		 
-     			
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
-	 
-	<a  href="/"> 首页</a></li>
-	
-    
-     			
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
-	 
-	<a  href="/archives"> 归档</a></li>
-	
-    
-     			
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
-	 
-	<a  href="/tags"> 标签</a></li>
-	
-    
-     			
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
-	 
-	<a  href="/post/about"> 关于</a></li>
-	
-    
-
-</ul>
-</li>		
-		
-</ul>				</div>
-			</nav><!-- #navigation -->
-        </header><!-- #masthead -->
-
-		<div id="content" class="container">
-			<div class="row">
-	<div class="col-md-8 site-main">
-	<script type="text/javascript">
-      $(document).ready(function() {
-         var tags_a = $("#tags a");
-         tags_a.each(function(){
-             var x = 2;
-             var y = 0;
-             var rand = parseInt(Math.random() * (x - y + 1) + y);
-             $(this).addClass("tags"+rand);
-          });
-      })   
-   </script>					
-<!-- #post-## -->
-	
-	 
 
 
-		 <div class="w95" id="tags">
-			 
-        <a href='http://cctime.coding.me/tag/pmWGPsG52'>Gridea</a>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://cctime.coding.me">
+        <img src="http://cctime.coding.me/images/avatar.png?v=1563539731487" class="site-logo">
+        <h1 class="site-title">续写篇张</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-    </div>		 
-
-
-
-		
-		
-			</div><!-- .site-main -->
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      今天的你，学习了吗？
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://cctime.coding.me/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-			</div><!-- #end row-->
-		</div><!-- #end container-->
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="tag-list-title">标签列表</h2>
+          <div class="tags-container">
+            
+              <a class="tag" href="http://cctime.coding.me/tag/pmWGPsG52">Gridea</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
-		
-		 	<footer id="colophon" class="site-footer">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-			<div class="container">
-	
-				<div class="copyright">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a><br>Theme:   <a href="https://github.com/alterfang/gridea-theme-pan/tree/master" target="_blank" title="Pan"><span>Pan</span></a>. Powered by <a href="https://gridea.dev/" target="_blank" title="Gridea"><span>Gridea</span></a></div>		
-			</div><!-- .container -->
-		
-		</footer><!-- #colophon -->
+<script type="application/javascript">
 
-</div><!-- #end wrapper-->
+AOS.init();
 
-<script type='text/javascript' src='http://cctime.coding.me/media/scripts/fitvids.js'></script>
-<script type='text/javascript' src='http://cctime.coding.me/media/scripts/marlin-scripts.js'></script>
+hljs.initHighlightingOnLoad()
 
-</body>
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
 </html>
