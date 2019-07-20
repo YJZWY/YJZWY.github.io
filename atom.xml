@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://cctime.coding.me</id>
     <title>续写篇张</title>
-    <updated>2019-07-19T16:53:32.091Z</updated>
+    <updated>2019-07-20T03:51:29.270Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://cctime.coding.me"/>
     <link rel="self" href="http://cctime.coding.me/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>http://cctime.coding.me/images/avatar.png</logo>
     <icon>http://cctime.coding.me/favicon.ico</icon>
     <rights>All rights reserved 2019, 续写篇张</rights>
+    <entry>
+        <title type="html"><![CDATA[获取TEWA-700G超级管理员密码改为自己路由拨号#电信光猫#]]></title>
+        <id>http://cctime.coding.me/post/huo-qu-tewa-700g-chao-ji-guan-li-yuan-mi-ma-gai-wei-zi-ji-lu-you-bo-hao</id>
+        <link href="http://cctime.coding.me/post/huo-qu-tewa-700g-chao-ji-guan-li-yuan-mi-ma-gai-wei-zi-ji-lu-you-bo-hao">
+        </link>
+        <updated>2019-07-20T02:51:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>如何获取电信TEWA-700G光猫的超级管理员密码把光猫拨号改为自己路由拨号教程</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>如何获取电信TEWA-700G光猫的超级管理员密码把光猫拨号改为自己路由拨号教程</p>
+<!-- more -->
+<ol>
+<li>打开浏览器在地址栏输入：192.168.1.1:8080</li>
+<li>登录用户名密码是TEWA-700G光猫背面铭牌上用户名和密码<a href="https://www.z4a.net/image/Uh73H6"><img src="https://www.z4a.net/images/2019/07/20/TEWA_700G-1.jpg" alt="TEWA_700G-1.jpg"></a><br>
+<a href="https://www.z4a.net/image/Uh7oRn"><img src="https://www.z4a.net/images/2019/07/20/TEWA_700G-2.jpg" alt="TEWA_700G-2.jpg"></a></li>
+<li>登录进去后在浏览器的当前页面地址栏输入：192.168.1.1:8080/dumpmdmd.conf<br>
+把dumpmdmd.conf文件下载回本地用记事本打开用ctrl+f搜索：Password在两个Password之间的由数字和字母大小写组合的就是超级管理员密码再上一行的telecomaadmin就是超级管理员账号<br>
+<a href="https://www.z4a.net/image/Uh7GhC"><img src="https://www.z4a.net/images/2019/07/20/TEWA_700G-3.jpg" alt="TEWA_700G-3.jpg"></a></li>
+<li>退出然后用上一步拿到的超级管理员账号密码重新登录<a href="https://www.z4a.net/image/Uh7fJv"><img src="https://www.z4a.net/images/2019/07/20/TEWA_700G.jpg" alt="TEWA_700G.jpg"></a></li>
+</ol>
+<h1 id="注意事项">注意事项</h1>
+<p>光猫要和操作的电脑直接连接，不能 电脑--路由--光猫 这样连接</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SSD m2 都有哪些接口？]]></title>
         <id>http://cctime.coding.me/post/ssd-m2-du-you-na-xie-jie-kou</id>
@@ -30,61 +53,43 @@
         </link>
         <updated>2019-07-18T13:02:56.000Z</updated>
         <content type="html"><![CDATA[<h1 id="快速连接">快速连接</h1>
-<p><a href="https://tieren66.ddnsto.com">TR-newifi3</a>  <a href="https://tieren2.ddnsto.com">TR-HUAWEI</a>  <a href="https://jiazhong.ddnsto.com">JIA-newif3</a></p>
+<p><a href="https://tieren66.ddnsto.com">TR-newifi3</a><br>
+<a href="https://tieren2.ddnsto.com">TR-HUAWEI</a><br>
+<a href="https://jiazhong.ddnsto.com">JIA-newif3</a></p>
 <hr>
 <h1 id="网站首页">网站首页</h1>
-<p><strong>免费可商用图库</strong><br>
-<a href="http://www.polayoutu.com">泼辣有图</a><br>
-<a href="https://www.cc0.cn">CC零图片网</a><br>
-<a href="https://www.ssyer.com">沙沙野</a></p>
-<p><strong>在线服务</strong><br>
-<a href="https://www.baiduwp.com">PanDownload下载器&amp;百度网盘在线下载</a><br>
-<a href="http://magnet.chongbuluo.com">虫部落资源搜索</a></p>
-<p><strong>Aodbe系列</strong><br>
-<a href="https://www.rgbcg.com">三原色GC&amp;pr插件&amp;ae插件</a></p>
-<p><strong>协同办公</strong><br>
-<a href="http://yhz66.com">云盒子-私有云企业网盘</a></p>
-<p><strong>网站搭建</strong><br>
-<a href="http://typecho.org">typecho极简建站程序</a></p>
-<p><strong>常用软件</strong><br>
-<a href="https://motrix.app/zh-CN/">Motrix&amp;下载器</a></p>
-<hr>
+<p><strong>免费可商用图库</strong></p>
+<p><a href="http://www.polayoutu.com">泼辣有图</a>—开源摄影，为世界提供免费美丽图像<br>
+<a href="https://www.cc0.cn">CC零图片网</a>—国内首家免费可商用的CC0图库<br>
+<a href="https://www.ssyer.com">沙沙野</a>—无版权图库</p>
+<p><strong>在线服务</strong></p>
+<p><a href="https://www.baiduwp.com">PanDownload</a>—下载器&amp;百度网盘在线下载<br>
+<a href="http://magnet.chongbuluo.com">虫部落资源搜索</a>——聚合搜索</p>
+<p><strong>Aodbe系列</strong></p>
+<p><a href="https://www.rgbcg.com">三原色GC&amp;</a>——pr插件&amp;ae插件&amp;ps插件</p>
+<p><strong>协同办公</strong></p>
+<p><a href="http://yhz66.com">云盒子</a>—搭建私有云企业网盘<br>
+<a href="https://www.wftpserver.com/zh/">Wing FTP Serve</a>—搭建FTP服务器</p>
+<p><strong>网站搭建</strong></p>
+<p><a href="http://typecho.org">typecho</a>—极简建站程序</p>
+<p><strong>常用软件</strong></p>
+<p><a href="https://motrix.app/zh-CN/">Motrix&amp;下载器</a>—一款全能的下载工具<br>
+支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源</p>
+<p><a href="http://www.91fk.net">SimpleRemote</a>—轻量级、选项卡式、免费、开源的远程连接管理工具，支持RDP、SSH、Telnet协议</p>
+<p><a href="https://www.balena.io/etcher/">balena</a>— 简洁刻录软件</p>
+<p><a href="http://www.wcpdoc.com/home/Pubindex.html">WCP</a>—WCP知识管理系统（标准版/专业版/旗舰版/定制版 ）通过知识创建、知识评价、知识更新、知识统计、知识订阅、知识推送等功能进行知识生命周期管理。</p>
+<p><a href="https://kodi.tv">Kodi</a>—家庭智能中心枢纽&amp;开源家庭影院</p>
+<p><a href="http://www.luyouxia.com/#package">路由侠</a>—局域网变公网&amp;虚拟局域网搭建</p>
+<p><a href="www.listary.com">listary</a>—文件搜索&amp;应用程序启动</p>
+<p><a href="www.screentogif.com">ScreenToGif</a>—录屏软件</p>
+<p><a href="https://t.odmail.cn">临时邮箱</a></p>
+<p><a href="http://m.36fy.com">加速度</a>—QQQQQQQQQQQQQQQ</p>
+<p><a href="https://getquicker.net">Quicker</a>—为常用操作建立捷径，让效率触手可及!</p>
+<p><a href="http://www.wofficebox.com">万彩办公大师</a>—办公必备的小工具百宝箱&amp;PDF工具/万能格式转换/识别工具/图片处理，多达60+个小工具</p>
 <h1 id="定向需求">定向需求</h1>
 <p><a href="http://so.redocn.com/s-726762c5e4c9abb1ed-k-------2.htm">rgb值&amp;rgb配色表</a><br>
 <a href="http://dev.hivoice.cn/exp_center/tts/tts.jsp">云知声&amp;语音转文字&amp;语音合成</a><br>
 <a href="http://www.yipic.cn">易图网&amp;图片素材</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://cctime.coding.me/post/hello-gridea</id>
-        <link href="http://cctime.coding.me/post/hello-gridea">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="http://hvenotes.fehey.com/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
