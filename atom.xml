@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://cctime.coding.me</id>
     <title>续写篇张</title>
-    <updated>2019-07-20T05:39:41.478Z</updated>
+    <updated>2019-07-20T06:00:55.922Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://cctime.coding.me"/>
     <link rel="self" href="http://cctime.coding.me/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>http://cctime.coding.me/images/avatar.png</logo>
     <icon>http://cctime.coding.me/favicon.ico</icon>
     <rights>All rights reserved 2019, 续写篇张</rights>
+    <entry>
+        <title type="html"><![CDATA[#time#——快速连接]]></title>
+        <id>http://cctime.coding.me/post/time-kuai-su-lian-jie</id>
+        <link href="http://cctime.coding.me/post/time-kuai-su-lian-jie">
+        </link>
+        <updated>2019-07-20T05:59:19.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="tr-newifi3"><a href="https://tieren66.ddnsto.com">TR-newifi3</a></h1>
+<h1 id="tr-huawei"><a href="https://tieren2.ddnsto.com">TR-HUAWEI</a></h1>
+<h1 id="jia-newif3"><a href="https://jiazhong.ddnsto.com">JIA-newif3</a></h1>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#电脑软件#——视频相关]]></title>
+        <id>http://cctime.coding.me/post/shi-pin-xiang-guan</id>
+        <link href="http://cctime.coding.me/post/shi-pin-xiang-guan">
+        </link>
+        <updated>2019-07-20T05:45:26.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://www.lanzous.com/i52pw1a"><strong>videoproc</strong></a>—视频转码、录屏软件</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[无版权素材]]></title>
         <id>http://cctime.coding.me/post/wu-ban-quan-su-cai</id>
@@ -762,7 +782,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[获取TEWA-700G超级管理员密码改为自己路由拨号#电信光猫#]]></title>
+        <title type="html"><![CDATA[#电信光猫#——获取TEWA-700G超级管理员密码改为自己路由拨号]]></title>
         <id>http://cctime.coding.me/post/huo-qu-tewa-700g-chao-ji-guan-li-yuan-mi-ma-gai-wei-zi-ji-lu-you-bo-hao</id>
         <link href="http://cctime.coding.me/post/huo-qu-tewa-700g-chao-ji-guan-li-yuan-mi-ma-gai-wei-zi-ji-lu-you-bo-hao">
         </link>
@@ -785,7 +805,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SSD m2 都有哪些接口？]]></title>
+        <title type="html"><![CDATA[#电脑主板#——SSD m2 都有哪些接口？]]></title>
         <id>http://cctime.coding.me/post/ssd-m2-du-you-na-xie-jie-kou</id>
         <link href="http://cctime.coding.me/post/ssd-m2-du-you-na-xie-jie-kou">
         </link>
@@ -803,12 +823,7 @@
         <link href="http://cctime.coding.me/post/wen-zhang">
         </link>
         <updated>2019-07-18T13:02:56.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="快速连接">快速连接</h1>
-<p><a href="https://tieren66.ddnsto.com">TR-newifi3</a><br>
-<a href="https://tieren2.ddnsto.com">TR-HUAWEI</a><br>
-<a href="https://jiazhong.ddnsto.com">JIA-newif3</a></p>
-<hr>
-<h1 id="网站首页">网站首页</h1>
+        <content type="html"><![CDATA[<h1 id="网站首页">网站首页</h1>
 <p><strong>免费可商用图库</strong></p>
 <p><a href="http://www.polayoutu.com">泼辣有图</a>—开源摄影，为世界提供免费美丽图像<br>
 <a href="https://www.cc0.cn">CC零图片网</a>—国内首家免费可商用的CC0图库<br>
