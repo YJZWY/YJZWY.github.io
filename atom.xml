@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://cctime.coding.me</id>
+    <id>https://yjzwy.github.io/</id>
     <title>续写篇张</title>
-    <updated>2019-09-16T03:48:35.220Z</updated>
+    <updated>2019-09-16T04:05:33.810Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://cctime.coding.me"/>
-    <link rel="self" href="http://cctime.coding.me/atom.xml"/>
+    <link rel="alternate" href="https://yjzwy.github.io/"/>
+    <link rel="self" href="https://yjzwy.github.io//atom.xml"/>
     <subtitle>今天的你，学习了吗？</subtitle>
-    <logo>http://cctime.coding.me/images/avatar.png</logo>
-    <icon>http://cctime.coding.me/favicon.ico</icon>
+    <logo>https://yjzwy.github.io//images/avatar.png</logo>
+    <icon>https://yjzwy.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 续写篇张</rights>
     <entry>
         <title type="html"><![CDATA[你真的快乐吗？]]></title>
-        <id>http://cctime.coding.me/post/ni-zhen-de-kuai-le-ma</id>
-        <link href="http://cctime.coding.me/post/ni-zhen-de-kuai-le-ma">
+        <id>https://yjzwy.github.io//post/ni-zhen-de-kuai-le-ma</id>
+        <link href="https://yjzwy.github.io//post/ni-zhen-de-kuai-le-ma">
         </link>
         <updated>2019-07-10T12:28:00.000Z</updated>
     </entry>
